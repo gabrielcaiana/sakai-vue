@@ -31,5 +31,5 @@ jobs:
 
     - name: Deploy project
       run: |
-        ssh-keyscan -t rsa 18.216.36.138 >> ~/.ssh/known_hosts
-        scp -r dist/* ubuntu@18.216.36.138:/usr/share/nginx/html
+        ssh-keyscan -t rsa 172-31-4-201 >> ~/.ssh/known_hosts
+        scp -r dist/* ubuntu@ip-172-31-4-201:/usr/share/nginx/html
