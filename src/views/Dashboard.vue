@@ -287,7 +287,7 @@ watch(
         </div>
         <div class="col-12 xl:col-6">
             <div class="card">
-                <h5>Sales Overview</h5>
+                <h5>Caiana overview</h5>
                 <Chart type="line" :data="lineData" :options="lineOptions" />
             </div>
             <div class="card">
